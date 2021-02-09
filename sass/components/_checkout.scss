@@ -1,0 +1,73 @@
+.section-checkout__form{
+    border-top: 1px solid rgba(76, 87, 102, .1);
+    border-bottom: 1px solid rgba(76, 87, 102, .1);
+    padding: 2.5rem 0 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+
+    .radio__label{
+        display: inline-block;
+        margin: 0;
+        color: $color-tertiary-dark;
+        font-size: 4rem;
+
+        input{
+            margin-right: .3rem;
+            position: relative;
+            top: -1.5rem;
+        }
+    }
+
+    .text-box{
+        display: inline-block;
+        position: relative;
+        top: -1rem;
+        margin: 0 .5rem;
+        line-height: 1;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        
+        strong{	
+            font-weight: bold;
+        }
+
+        small{
+            margin-top: .8rem;
+
+            .price{
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.section-checkout__header{
+    margin-top: -10vh;
+    cursor: pointer;
+
+    &--main{
+        font-size: 4rem;
+        color: $color-black;
+    }
+
+    ul{
+        padding: 0 2rem;
+
+        li{
+            font-size: $default-font-size;
+        }
+    }
+
+    select{
+        float: right;
+        text-transform: capitalize;
+        background-color: $color-grey-light-1;
+        padding: 1rem 2rem;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        color: $color-black;
+        font-weight: bold;
+    }
+}
